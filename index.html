@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhiaz Alfiansyah —  UI Web Designer</title>
+<meta name="description" content="Portofolio Dhiaz Alfiansyah, & UI Web Designer.">
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@0.542.0/font/lucide.css">
+</head>
+<body>
+
+<div class="cursor-orb" id="cursorOrb" aria-hidden="true"></div>
+
+<header class="nav-wrap">
+  <nav class="nav container">
+    <a href="#home" class="nav-logo">R<span>.</span>P</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active" data-section="home">Beranda</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">Tentang</a></li>
+      <li><a href="#skills" class="nav-link" data-section="skills">Keahlian</a></li>
+      <li><a href="#projects" class="nav-link" data-section="projects">Proyek</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Kontak</a></li>
+    </ul>
+    <a href="assets/docs/CV.pdf" class="btn btn-outline nav-cta" download>Unduh CV</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="blob-field" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">Halo, perkenalkan</p>
+      <h1 class="hero-title reveal">
+        Saya Dhiaz Alfiansyah,<br>
+        <span class="text-gradient">UI Web Designer</span>.
+      </h1>
+      <p class="hero-desc reveal">
+        Saya membuat website dan aplikasi yang cepat, responsif, dan mudah digunakan. Fokus saya adalah mengubah ide menjadi produk digital yang terlihat bagus sekaligus berjalan dengan baik.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+        <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+      </div>
+
+      <div class="chip-float reveal" aria-hidden="true">
+  <span class="chip chip-a">HTML5</span>
+  <span class="chip chip-b">CSS3</span>
+  <span class="chip chip-c">JavaScript</span>
+  <span class="chip chip-d">React</span>
+  <span class="chip chip-e">Tailwind</span>
+  <span class="chip chip-d">Figma</span>
+</div>
+    </div>
+
+    <a href="#about" class="scroll-hint" aria-label="Gulir ke bawah"><span></span></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="avatar-card">
+          <div class="avatar-glow"></div>
+          <div class="avatar-initials">DA</div>
+        </div>
+        <div class="badge-float badge-1">2 Tahun Pengalaman</div>
+        <div class="badge-float badge-2">10 Proyek Selesai</div>
+      </div>
+
+      <div class="about-content">
+  <p class="eyebrow reveal">Tentang Saya</p>
+  <h2 class="section-title reveal">Saya suka mengubah ide menjadi website yang bisa digunakan banyak orang.</h2>
+
+  <p class="about-text reveal">
+    Saya mulai belajar pengembangan web pada tahun 2022 dan terus mengembangkan
+    kemampuan di bidang frontend. Saya senang membuat tampilan website yang
+    modern, responsif, dan nyaman digunakan.
+  </p>
+
+  <p class="about-text reveal">
+    Saat ini saya terus memperdalam HTML, CSS, JavaScript, dan React melalui
+    berbagai proyek pribadi. Saya juga selalu terbuka untuk mempelajari teknologi
+    baru dan berkembang bersama tim.
+  </p>
+</div>
+
+        <div class="stat-grid reveal">
+          <div class="stat-card stat-1">
+            <span class="stat-num" data-count="10">0</span>
+            <span class="stat-label">Proyek Selesai</span>
+          </div>
+          <div class="stat-card stat-2">
+            <span class="stat-num" data-count="2">0</span>
+            <span class="stat-label">Klien Puas</span>
+          </div>
+          <div class="stat-card stat-3">
+            <span class="stat-num" data-count="2">0</span>
+            <span class="stat-label">Tahun Pengalaman</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <p class="eyebrow reveal center">Keahlian</p>
+      <h2 class="section-title reveal center">Tools yang saya pakai setiap hari</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon icon-frontend" aria-hidden="true"></div>
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, React, Vue</p>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon icon-backend" aria-hidden="true"></div>
+          <h3>Backend</h3>
+          <p>Node.js, Express, REST API, PostgreSQL</p>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon icon-design" aria-hidden="true"></div>
+          <h3>Desain UI/UX</h3>
+          <p>Figma, Design System, Prototyping</p>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon icon-tools" aria-hidden="true"></div>
+          <h3>Tools & Lainnya</h3>
+          <p>Git, Docker, Vite, Webpack</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+<section id="projects" class="section projects">
+  <div class="container">
+    <p class="eyebrow reveal center">Proyek</p>
+    <h2 class="section-title reveal center">Beberapa proyek yang pernah saya kerjakan</h2>
+
+    <div class="filter-bar reveal" id="filterBar">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="web">Web App</button>
+      <button class="filter-btn" data-filter="ui">UI Design</button>
+    </div>
+
+    <div class="project-grid" id="projectGrid">
+
+      <article class="project-card reveal" data-category="web">
+        <div class="project-thumb thumb-1">
+          <span class="thumb-tag">Web App</span>
+        </div>
+        <div class="project-body">
+          <h3>Website Company Profile</h3>
+          <p>Website company profile modern dengan desain responsif dan navigasi yang sederhana.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-category="ui">
+        <div class="project-thumb thumb-2">
+          <span class="thumb-tag">UI Design</span>
+        </div>
+        <div class="project-body">
+          <h3>Dashboard Admin UI</h3>
+          <p>Merancang antarmuka dashboard yang bersih dan mudah digunakan untuk pengelolaan data.</p>
+          <div class="project-tags">
+            <span>Figma</span>
+            <span>Prototype</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-category="web">
+        <div class="project-thumb thumb-3">
+          <span class="thumb-tag">Web App</span>
+        </div>
+        <div class="project-body">
+          <h3>Landing Page Startup</h3>
+          <p>Landing page dengan animasi ringan, responsif, dan fokus pada pengalaman pengguna.</p>
+          <div class="project-tags">
+            <span>React</span>
+            <span>Tailwind CSS</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+  <!-- CONTACT -->
+<section id="contact" class="section contact">
+  <div class="container contact-inner">
+
+    <div class="contact-blob" aria-hidden="true"></div>
+
+    <p class="eyebrow reveal center">Kontak</p>
+
+    <h2 class="section-title reveal center">
+      Mari Terhubung
+    </h2>
+
+    <p class="contact-desc reveal center">
+      Punya pertanyaan, proyek, atau ingin berdiskusi?
+      Silakan hubungi saya melalui salah satu platform berikut.
+    </p>
+
+    <div class="contact-cards reveal">
+
+      <a href="mailto:your@email.com" class="contact-card">
+        <i class="icon icon-mail"></i>
+
+        <div>
+          <h3>Email</h3>
+          <p>dhiaz@email.com</p>
+        </div>
+      </a>
+
+      <a href="https://wa.me/6281327399842" target="_blank" class="contact-card">
+        <i class="icon icon-message-circle"></i>
+
+        <div>
+          <h3>WhatsApp</h3>
+          <p>+62 813-2739-9842</p>
+        </div>
+      </a>
+
+      <a href="https://github.com/username" target="_blank" class="contact-card">
+        <i class="icon icon-github"></i>
+
+        <div>
+          <h3>GitHub</h3>
+          <p>github.com/username</p>
+        </div>
+      </a>
+
+      <a href="https://www.linkedin.com/in/dhiaz-alfiansyah-ba9852387/" target="_blank" class="contact-card">
+        <i class="icon icon-linkedin"></i>
+
+        <div>
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/dhiazalfiansyah</p>
+        </div>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Dhiaz Alfiansyah. Dibuat dengan HTML, CSS & JavaScript murni.</p>
+    <a href="#home" class="back-to-top">Kembali ke atas ↑</a>
+  </div>
+</footer>
+
+<script src="assets/js/animation.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
