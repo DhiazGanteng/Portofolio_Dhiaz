@@ -29,7 +29,7 @@
       <li><a href="#projects" class="nav-link" data-section="projects">Proyek</a></li>
       <li><a href="#contact" class="nav-link" data-section="contact">Kontak</a></li>
     </ul>
-    <a href="assets/docs/CV.pdf" class="btn btn-outline nav-cta" download>Unduh CV</a>
+    <a href="assets/docs/CV.pdf" class="btn btn-outline nav-cta" download>Unduh</a>
     <button class="nav-toggle" id="navToggle" aria-label="Buka menu">
       <span></span><span></span><span></span>
     </button>
@@ -122,34 +122,39 @@
 
   <!-- SKILLS -->
   <section id="skills" class="section skills">
-    <div class="container">
-      <p class="eyebrow reveal center">Keahlian</p>
-      <h2 class="section-title reveal center">Tools yang saya pakai setiap hari</h2>
+  <div class="container">
+    <p class="eyebrow reveal center">Keahlian</p>
+    <h2 class="section-title reveal center">Tools yang saya pakai setiap hari</h2>
 
-      <div class="skills-grid">
-        <div class="skill-card reveal">
-          <div class="skill-icon icon-frontend" aria-hidden="true"></div>
-          <h3>Frontend</h3>
-          <p>HTML, CSS, JavaScript, React, Vue</p>
-        </div>
-        <div class="skill-card reveal">
-          <div class="skill-icon icon-backend" aria-hidden="true"></div>
-          <h3>Backend</h3>
-          <p>Node.js, Express, REST API, PostgreSQL</p>
-        </div>
-        <div class="skill-card reveal">
-          <div class="skill-icon icon-design" aria-hidden="true"></div>
-          <h3>Desain UI/UX</h3>
-          <p>Figma, Design System, Prototyping</p>
-        </div>
-        <div class="skill-card reveal">
-          <div class="skill-icon icon-tools" aria-hidden="true"></div>
-          <h3>Tools & Lainnya</h3>
-          <p>Git, Docker, Vite, Webpack</p>
-        </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-icon icon-frontend" aria-hidden="true"></div>
+        <h3>Frontend</h3>
+        <p>HTML5, CSS3, JavaScript, Bootstrap, Flutter</p>
       </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon icon-backend" aria-hidden="true"></div>
+        <h3>Backend</h3>
+        <p>Laravel, PHP, MySQL, REST API</p>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon icon-design" aria-hidden="true"></div>
+        <h3>UI/UX Design</h3>
+        <p>Figma, Canva, Wireframing, Prototyping</p>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon icon-tools" aria-hidden="true"></div>
+        <h3>Tools & Lainnya</h3>
+        <p>Git, GitHub, VS Code, Postman</p>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- PROJECTS -->
 <section id="projects" class="section projects">
@@ -165,48 +170,63 @@
 
     <div class="project-grid" id="projectGrid">
 
-      <article class="project-card reveal" data-category="web">
-        <div class="project-thumb thumb-1">
-          <span class="thumb-tag">Web App</span>
-        </div>
-        <div class="project-body">
-          <h3>Website Company Profile</h3>
-          <p>Website company profile modern dengan desain responsif dan navigasi yang sederhana.</p>
-          <div class="project-tags">
+     <article class="project-card reveal" data-category="web">
+    <div class="project-thumb">
+        <img src="assets/images/markas.png" alt="Website Company Profile">
+
+        <span class="thumb-tag">Web </span>
+    </div>
+
+    <div class="project-body">
+        <h3>Booking Markas Sport Center</h3>
+        <p>Website Booking Management System untuk Markas Sport Center yang memudahkan pengguna melakukan pemesanan lapangan secara online dengan cepat dan praktis.</p>
+
+        <div class="project-tags">
             <span>HTML</span>
             <span>CSS</span>
             <span>JavaScript</span>
-          </div>
         </div>
-      </article>
+    </div>
+</article>
 
       <article class="project-card reveal" data-category="ui">
-        <div class="project-thumb thumb-2">
-          <span class="thumb-tag">UI Design</span>
-        </div>
-        <div class="project-body">
-          <h3>Dashboard Admin UI</h3>
-          <p>Merancang antarmuka dashboard yang bersih dan mudah digunakan untuk pengelolaan data.</p>
-          <div class="project-tags">
-            <span>Figma</span>
-            <span>Prototype</span>
-          </div>
-        </div>
-      </article>
+    <div class="project-thumb">
+        <img src="assets/images/jjk.png" alt="Dashboard Admin UI">
 
-      <article class="project-card reveal" data-category="web">
-        <div class="project-thumb thumb-3">
-          <span class="thumb-tag">Web App</span>
+        <span class="thumb-tag">App</span>
+    </div>
+
+    <div class="project-body">
+        <h3>Booking Tiket Film</h3>
+        <p>Aplikasi booking film yang memudahkan pengguna memilih film, melihat jadwal tayang, dan memesan tiket secara online dengan cepat.</p>
+
+        <div class="project-tags">
+            <span>Rest API</span>
+            <span>Flutter</span>
+            <span>Dart</span>
         </div>
-        <div class="project-body">
-          <h3>Landing Page Startup</h3>
-          <p>Landing page dengan animasi ringan, responsif, dan fokus pada pengalaman pengguna.</p>
-          <div class="project-tags">
-            <span>React</span>
-            <span>Tailwind CSS</span>
-          </div>
+    </div>
+</article>
+    </article>
+
+      <article class="project-card reveal" data-category="ui">
+    <div class="project-thumb">
+        <img src="assets/images/jual.jpeg" alt="Dashboard Admin UI">
+
+        <span class="thumb-tag">App</span>
+    </div>
+
+    <div class="project-body">
+        <h3>Jual Baju</h3>
+        <p>Website jual baju yang memudahkan pengguna menjelajahi katalog produk, memilih ukuran, dan melakukan pembelian secara online dengan mudah.</p>
+
+        <div class="project-tags">
+            <span>Flutter</span>
+            <span>Dart</span>
+           <span>Rest API</span>
         </div>
-      </article>
+    </div>
+</article>
 
     </div>
   </div>
@@ -236,7 +256,7 @@
 
         <div>
           <h3>Email</h3>
-          <p>dhiaz@email.com</p>
+          <p>dhiazalfinsyah@email.com</p>
         </div>
       </a>
 
@@ -254,7 +274,7 @@
 
         <div>
           <h3>GitHub</h3>
-          <p>github.com/username</p>
+          <p>https://github.com/DhiazGanteng</p>
         </div>
       </a>
 
